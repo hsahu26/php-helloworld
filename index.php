@@ -10,6 +10,7 @@
  Echo "Your IP Address is " . $ns;
  Echo "Your IP Address is " . $podname;
  Echo "Your IP Address is " . $ipaddress;
+ echo 'The username is: ' .$_ENV["MY_POD_NAMESPACE"] . '!';
  ?>
  </body>
 </html>
