@@ -10,7 +10,7 @@
  Echo "Your IP Address is " . $ns;
  Echo "Your IP Address is " . $podname;
  Echo "POD IP Address is " . $ipaddress;
- echo "POD hostname " gethostname(); 
+ echo "POD hostname " . gethostname(); 
  echo 'The username is: ' .$_ENV["OPENSHIFT_BUILD_COMMIT"] . '!';
  ?>
  </body>
