@@ -9,7 +9,8 @@
  $ipaddress = getenv("REMOTE_ADDR") ; 
  Echo "Your IP Address is " . $ns;
  Echo "Your IP Address is " . $podname;
- Echo "Your IP Address is " . $ipaddress;
+ Echo "POD IP Address is " . $ipaddress;
+ echo "POD hostname " gethostname(); 
  echo 'The username is: ' .$_ENV["OPENSHIFT_BUILD_COMMIT"] . '!';
  ?>
  </body>
